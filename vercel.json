@@ -2,19 +2,19 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
-      "source": "/airbnb-like-demo",
+      "source": "/odenvia-demo",
       "destination": "/index.html"
     },
     {
-      "source": "/airbnb-like-demo/",
+      "source": "/odenvia-demo/",
       "destination": "/index.html"
     },
     {
-      "source": "/airbnb-like-demo/assets/(.*)",
+      "source": "/odenvia-demo/assets/(.*)",
       "destination": "/assets/$1"
     },
     {
-      "source": "/airbnb-like-demo/(.*)",
+      "source": "/odenvia-demo/(.*)",
       "destination": "/index.html"
     }
   ]

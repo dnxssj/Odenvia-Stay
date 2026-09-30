@@ -6,7 +6,7 @@ import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/airbnb-like-demo">
+    <BrowserRouter basename="/odenvia-demo">
       <App />
     </BrowserRouter>
   </React.StrictMode>
