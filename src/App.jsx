@@ -77,7 +77,7 @@ function AppContent() {
         <footer className="site-footer">
           <div>
             <strong>Odenvia Stay</strong>
-            <span>Proyecto portfolio · Demo en desarrollo</span>
+            <span>Proyecto portfolio · Demo en desarrollo · Powered by DNX Lab</span>
           </div>
           <span>Sin reservas ni pagos reales</span>
         </footer>
