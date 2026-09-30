@@ -2,8 +2,20 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
+      "source": "/airbnb-like-demo",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/airbnb-like-demo/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/airbnb-like-demo/assets/(.*)",
+      "destination": "/assets/$1"
+    },
+    {
       "source": "/airbnb-like-demo/(.*)",
-      "destination": "/airbnb-like-demo/"
+      "destination": "/index.html"
     }
   ]
 }
